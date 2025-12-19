@@ -6,6 +6,54 @@
 }
 
 /* general */
+html, body {
+    font-family: "Open Sans", sans-serif;
+} 
+
 h1, h2, h3 {
     margin-bottom: 20px;
+}
+
+a {
+    color:#222;
+    text-decoration: none;
+}
+
+/* header */
+
+.header {
+    background: #333;
+    overflow: auto;
+    line-height: 1.7em;
+
+    nav{
+        & h1 {
+            float: left;
+            padding: 20px;
+            margin-bottom: 0px;
+
+            & a {
+                color: #fff;
+            }
+        }
+
+        & ul {
+            float: right;
+            list-style: none;
+
+            & li {
+                float: left;
+
+                & a{
+                    color: #fff;
+                    padding: 20px;
+                    display: block;
+                }
+
+                & a:hover {
+                    background: #444;
+                }
+            }
+        }
+    }
 }
