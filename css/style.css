@@ -45,7 +45,7 @@ p {
 }
 
 .btn-primary:hover {
-    background: #222;
+    background: #ffce00;
     color: #fff;
 }
 
@@ -78,7 +78,7 @@ p {
             margin-bottom: 0px;
 
             & a {
-                color: #ffce00;
+                color: #fff;
             }
         }
 
@@ -96,7 +96,7 @@ p {
                 }
 
                 & a:hover {
-                    background: #444;
+                    background: #ffce00;
                 }
             }
         }
@@ -139,6 +139,10 @@ p {
     overflow: auto;
     padding: 100px 0px;
     text-align: center;
+
+    & i {
+        color: #ffce00;
+    }
 }
 
 .feature {
