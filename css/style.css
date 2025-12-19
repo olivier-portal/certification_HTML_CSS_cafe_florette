@@ -8,6 +8,7 @@
 /* general */
 html, body {
     font-family: "Open Sans", sans-serif;
+    color: #222;
 } 
 
 h1, h2, h3 {
@@ -17,6 +18,50 @@ h1, h2, h3 {
 a {
     color:#222;
     text-decoration: none;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.separator {
+    margin: 20px auto;
+    height: 2px;
+    width: 600px;
+    background: #333;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background: #fff;
+    color: #222;
+}
+
+.btn-primary:hover {
+    background: #222;
+    color: #fff;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    width: 1000px;
+}
+
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-20 {
+    margin-bottom: 20px;
 }
 
 /* header */
@@ -33,7 +78,7 @@ a {
             margin-bottom: 0px;
 
             & a {
-                color: #fff;
+                color: #ffce00;
             }
         }
 
@@ -56,4 +101,48 @@ a {
             }
         }
     }
+}
+
+.active {
+    background: #444;
+}
+
+.vp {
+    height: 700px;
+    background: url(../img/cafe1.jpg) center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.vp-content {
+    max-width: 600px;
+    padding-top: 150px;
+    color: #fff;
+    display: block;
+    margin: auto;
+
+    & h1 {
+        font-size: 50px;
+        color: #ffce00;
+    }
+
+    & p {
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        line-height: 1.9em;
+    }
+}
+
+/* Features */
+
+.features {
+    overflow: auto;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.feature {
+    float: left;
+    width: 50%;
+    padding: 0 20px;
 }
