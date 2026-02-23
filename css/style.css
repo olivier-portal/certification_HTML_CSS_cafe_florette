@@ -77,6 +77,28 @@ p {
     margin-bottom: 20px;
 }
 
+.underline {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.chip {
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    border-radius: 100%;
+    background: #333;
+    color: #fff;
+}
+
+.chip-purple {
+    background: #ad4e8e;
+}
+
+.chip-brown {
+    background: #664a26;
+}
+
 /* header */
 
 .header {
@@ -188,6 +210,25 @@ p {
     text-align: center;
 }
 
+/* where */
+
+.where {
+    padding: 100px 0;
+    overflow: auto;
+    min-height: 100vh;
+}
+
+.where-img {
+    float: left;
+    width: 45%;
+    border: #ddd;
+    border-radius: 5px;
+}
+
+.where-text {
+    float: right;
+    width: 50%;
+}
 
 /* footer */
 
