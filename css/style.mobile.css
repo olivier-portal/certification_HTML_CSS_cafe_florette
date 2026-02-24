@@ -1,0 +1,59 @@
+/* header */
+
+.header {
+    nav {
+        & h1 {
+            float: none;
+            text-align: center;
+        }
+
+        & ul {
+            float: none;
+
+            & li {
+                float: none;
+
+                & a {
+                    padding: 10px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.vp-content {
+    padding-top: 50px;
+
+    & h1 {
+        color: #fff;
+        font-size: 2rem;
+    }
+}
+
+.separator {
+    width: 200px;
+}
+
+.features {
+
+    & .container {
+        display: inline-block;
+        float: none;
+        width: 100%;
+        margin-bottom: 2rem;
+
+    }
+        & .feature:first-child {
+        padding-bottom: 2rem;
+    }
+}
+
+.container {
+    width: 100%;
+}
+
+.reservation {
+    padding: 0 2rem;
+    margin-top: 2rem;
+}
