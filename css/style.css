@@ -241,6 +241,7 @@ p {
 .contact-form-container {
     max-width: 600px;
     margin: auto;
+    padding: 20px;
 }
 
 .contact-form-container form label {

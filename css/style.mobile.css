@@ -57,3 +57,34 @@
     padding: 0 2rem;
     margin-top: 2rem;
 }
+
+/* where */
+
+.where {
+    padding: 80px 20px;
+}
+
+.where-img {
+    float: none;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.where-text {
+    float: rignoneht;
+    width: 100%;
+}
+
+/* contact */
+
+.contact {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact-form-container {
+    max-width: 600px;
+    margin: auto;
+}
