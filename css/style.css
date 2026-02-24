@@ -143,7 +143,7 @@ p {
 }
 
 .vp {
-    height: 700px;
+    min-height: 700px;
     background: url(../img/cafe1.jpg) center center;
     background-size: cover;
     text-align: center;
@@ -151,13 +151,14 @@ p {
 
 .vp-content {
     max-width: 600px;
+    padding: 2rem;
     padding-top: 150px;
     color: #fff;
     display: block;
     margin: auto;
 
     & h1 {
-        font-size: 50px;
+        font-size: 3rem;
         color: #ffce00;
     }
 
@@ -172,7 +173,7 @@ p {
 
 .features {
     overflow: auto;
-    padding: 100px 0px;
+    padding: 2rem;
     text-align: center;
 
     & .container {
